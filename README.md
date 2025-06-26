@@ -45,4 +45,15 @@ This project is built to demonstrate how intelligent agent collaboration, local 
 ---
 
 ## 📁 Project Structure
-
+ai-compliance-officer/
+├── api/ # FastAPI backend
+├── agents/ # CrewAI agent logic
+├── models/ # LLM wrappers for summarization, classification
+├── utils/ # Parsers, templates, logger
+├── test_data/ # Sample PDFs, transcripts
+├── frontend/ # Streamlit/React UI (optional)
+├── Dockerfile
+├── docker-compose.yml
+├── k8s/ # Kubernetes deployment manifests
+├── requirements.txt
+└── README.md
