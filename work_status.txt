@@ -1,0 +1,23 @@
+**********************************
+#todo
+
+1. Completed first agent which is summry agent via fast api and ollma within crewai 
+2. Now the next task is to create the 2 remaining agent and then connect them via CrewAI / ollma and then deployment 
+3. audio input api is working and whsper is converting audio to text and then that texts are proccessed by two agents and then giving the output in the same API 
+4. nest step to create UI and then make another two agents and then deployment
+5. In the UI we will give them a description also ki what is happning and all 
+6. I will be creating the UI such as there will be toggle 
+***********************************
+
+***********************************
+#Notes:
+1. CrewAI llm config for ollma withing agent file is 
+get_llm = LLM(
+    model="ollama/llama3.1",
+    base_url="http://localhost:11434",   # Ollama's default URL
+    api_key="ollama",                    # Trick: this is how you signal to litellm it's a local Ollama model
+    # litellm_params={"api_base": "http://localhost:11434", "model": "llama3.1", "provider": "ollama"}
+) 
+
+2. 
+***********************************
